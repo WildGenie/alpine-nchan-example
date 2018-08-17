@@ -1,4 +1,4 @@
-FROM meroje/alpine-nchan:latest@sha256:57556ac199275cd7fceff1d51d7657612d50139ff9eb5125090a328d904d5fc1
+FROM wildgenie/alpine-nchan:latest@sha256:cb3bcbcf8a7c040bad3b0bb2904b8b82abc9da4e739fc19ff75e7d15c5eb4ee2
 
 COPY nginx.conf /etc/nginx/nginx.conf
 COPY nginx.vh.default.conf /etc/nginx/conf.d/default.conf
