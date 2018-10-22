@@ -3,7 +3,7 @@ services:
   web:
     build: .
     ports:
-     - "32090:80"
+     - "32081:80"
      - "32443:443"
     depends_on:
      - redis-master
